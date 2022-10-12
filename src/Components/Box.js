@@ -8,7 +8,8 @@ export default function Box(){
     return <mesh rotation={[90,0,20]}>
         
         <boxBufferGeometry attach="geometry" args={[3,3,3]}/>
-        <meshLambertMaterial attach="material" color="red"/>
-        <meshLambertMaterial attach="material" map={texture}/>
+        {/* <meshLambertMaterial attach="material" color="red"/>
+        <meshLambertMaterial attach="material" map={texture}/> */}
+        <meshNormalMaterial attach="material"/>
     </mesh>;
 }
