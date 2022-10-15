@@ -6,6 +6,7 @@ import Box from './Components/Box'
 import {OrbitControls} from '@react-three/drei'
 import AnimatedSphere from './Components/AnimatedSphare';
 import ConeElement from './Components/ConeElement';
+import { MetaAbi } from './Abi/abi';
 function App() {
   return (
     <div className="App">
